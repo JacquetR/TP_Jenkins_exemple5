@@ -17,4 +17,14 @@ public final class CalculatorService {
     public int add(Collection<Integer> numbers) {
         return numbers.stream().reduce(0, CalculatorAlgo::add);
     }
+    
+    /**
+     * Multiplie two numbers.
+     * @param a the first number
+     * @param b the second number
+     * @return the result of a * b
+     */
+    public int multiplication(Collection<Integer> numbers) {
+        return numbers.stream().reduce(0, CalculatorAlgo::multiplication);
+    }
 }
