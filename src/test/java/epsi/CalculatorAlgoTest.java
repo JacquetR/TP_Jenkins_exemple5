@@ -18,4 +18,13 @@ public class CalculatorAlgoTest {
     {
         assertEquals("2 + 3 should be 5", 5, CalculatorAlgo.add(2, 3));
     }
+    
+    /**
+     * Test multiplie two numbers.
+     */
+    @Test
+    public void shouldMultiplieTwoNumbers()
+    {
+        assertEquals("2 * 3 should be 6", 6, CalculatorAlgo.multiplication(2, 3));
+    }
 }
